@@ -1,0 +1,18 @@
+<html>
+<head>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body ng-app="currentYear">
+	<div ng-controller="CurCtrl">
+		<p class="current-year">It's {{ currentYear }}.</p>
+		<span class="click" ng-click="changing = !changing"></span>
+		<div class="bot-text">
+			<p ng-show="changing" ng-click="changing = !changing" class="transgression">{{ transgression }}</p>
+			<span ng-show="!changing" class="transgression"><input id="edit" ng-blur="changing = !changing; setSearch()" ng-model="transgression"></span>
+		</div>
+	</div>
+	<span class="instructions">Click the bottom half of the screen to add your own text, then share the URL.</span>
+</body>
+</html>

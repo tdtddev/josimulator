@@ -1,0 +1,59 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+  background: url(joPic.jpg) no-repeat center center fixed !important; 
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+.current-year{
+	color: white;
+	font-size: 150px;
+	text-shadow: 3px 3px 3px black;
+}
+.bot-text{
+	position: absolute;
+	height: 300px;
+	display: inline-block;
+	bottom: 50px;
+	right: 50px;
+}
+.transgression{
+	position: relative;
+	display: inline;
+	color: white;
+	bottom: 25px;
+	width: 100%;
+	font-size: 150px;
+	text-shadow: 3px 3px 3px black;
+	float: right;
+	text-align: right;
+}
+input{
+	font-family: Arial, Helvetica, sans-serif;
+	background: none;
+	border: none;
+	position: relative;
+	display: inline;
+	float: right;
+	bottom: -136px;
+	min-height: 200px;
+	width: 100%;
+	color: white;
+	font-size: 150px;
+	text-shadow: 3px 3px 3px black;
+	text-align: right;
+}
+.click{
+	position: absolute;
+	bottom: 0px;
+	height: 50%;
+	width: 99%;
+}
+.instructions{
+	position: absolute;
+	bottom: 0px;
+	width: 99%;
+	color: white;
+	text-align: center;
+}
